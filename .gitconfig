@@ -1,0 +1,10 @@
+[user]
+	name = matheus2x
+	email = matheushenriqueplus99@gmail.com
+[core]
+	editor = code --wait
+[push]
+	followTags = true
+[alias]
+	s = !git status -s
+	l = !git log --pretty=format:'%C(blue)%h%C(magenta)%d\n%C(cyan)%s\n%C(red)%cn %C(white)- %C(green)%cr\n' 
